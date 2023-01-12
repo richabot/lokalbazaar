@@ -1,0 +1,205 @@
+/* Homepage */
+
+
+.clothes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 200vh; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 52px;
+
+}
+.text{
+    /* width: 50%; */
+    margin: auto;
+    flex-wrap: wrap-reverse;
+
+ }
+.imgs{
+    width: 50%;
+} 
+.imgs img{
+    width: 100%;
+    height: auto;
+    max-height: fit-content;
+    text-align: center;
+
+
+}
+.categories{
+
+    /* display: grid;
+    align-items: center; */
+    padding-left:30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color:  #fae6fa93;
+    height: auto;
+    padding-bottom: 40px;
+    
+    /* background-color: ; */
+}
+.categories h2{
+    margin-left:50px;
+}
+.cat-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 2em;
+    flex-wrap: wrap;
+
+
+}
+.cat-img img{
+    height: 60px;
+    margin-left: 5px;
+    border-radius:30px;
+    margin-right: auto;
+margin-left: auto;
+}
+.new-img{
+    border-radius: 10px;
+    border:1px solid
+
+}
+.cat-img h1{
+    font-size: 14px;
+    text-align: center;
+}
+.sel-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 2em;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+/* seller */
+.sellers{
+    padding:30px;
+    
+
+}
+.listing{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.listing h2{
+    margin-left: 50px;
+
+}
+.listing a{
+    font-weight: 500;
+    color: blueviolet;
+    
+}
+.seller img{
+height: 150px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+
+
+}
+.seller h1{
+    text-align: center;
+    color: rgb(94, 1, 180);
+font-size: 18px;
+}
+.seller p{
+
+    text-align: center;
+    color: rgb(143, 143, 143);
+font-size: 15px;
+}
+
+/* bannner */
+
+.banner img{
+    height: auto;
+    width: 100%;
+    padding:4em;
+
+    margin: auto;
+
+}
+
+/* products
+ */
+ .deals{
+    padding:30px;
+    
+
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.products h2{
+    margin-left: 50px;
+
+}
+.products a{
+    font-weight: 500;
+    color: blueviolet;
+    
+}
+.deal img{
+height: 100px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+
+}
+.deal h1{
+    text-align: center;
+    color: rgb(94, 1, 180);
+font-size: 16px;
+}
+.deal p{
+
+    text-align: center;
+    color: rgb(143, 143, 143);
+font-size: 15px;
+}
+
+
+.prod-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 2em;
+    flex-wrap: wrap;
+
+
+
+}
+
+.deal .price{
+    color: #000;
+    
+
+}
+
+
+.clothy{
+    height: 355px !important;
+    width: 716px;
+}
+
+.richbanner{
+    width: 100%;
+    height: 277px !important;
+}
