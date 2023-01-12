@@ -12,6 +12,10 @@ import { BsSearch } from 'react-icons/bs'
 import { RxCross2 } from 'react-icons/rx'
 
 import Navbar from './Navbar';
+import jwelery from "../images/jwellery.png"
+import men  from "../images/men.png"
+import electronic from "../images/electronic.png"
+import girl from "../images/girl.png"
 import { Heading, Input, InputGroup, InputRightElement } from '@chakra-ui/react'
 const Homepage = () => {
   //redux part
@@ -29,7 +33,7 @@ const Homepage = () => {
 const [show, setShow] = React.useState(false)
 const handleClick = () => setShow(!show)
 
-
+const imagesC=[electronic,jwelery,men,girl]
 
 const data3 =[
 {
@@ -85,10 +89,10 @@ const data3 =[
     <Navbar/>
 
 
-    <div className='clothes'>
-            <div className='text'>
+    <div className='clothes navigator  position-sticky'>
+            <div className='text  position-sticky'>
 
-            <Heading className='h1tag'>We are here to provide <br /> all services</Heading>
+            <Heading className='h1tag  position-sticky'>We are here to provide <br /> all services</Heading>
             
           <br />
             <p>Company that provides loacal search for different services in India <br /> over the phone and online </p>
@@ -117,9 +121,9 @@ const data3 =[
     </InputGroup>
 
             </div>
-            <div className='imgs'>
+            <div className='imgs  position-sticky'>
 
-            <img className='clothy' src="https://i.postimg.cc/wBpgKykV/cloths.webp" alt="clothes" />
+            <img className='clothy  position-sticky' src="https://i.postimg.cc/wBpgKykV/cloths.webp" alt="clothes" />
           
   
 
@@ -146,7 +150,7 @@ const data3 =[
   return(
     <div key={index}>
       <div  style={{margin:"auto",textAlign:"center"}}>
-    <Link  to= {`product/${cat}`}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfM2DjQx__TH33cT8FvRwPaATVKsSvhTDWw&usqp=CAU"/></Link>
+    <Link  to= {`product/${cat}`}><img src={imagesC[index]}/></Link>
    <Link key={index} to= {`product/${cat}`} >{cat}</Link>
    </div>
     </div>

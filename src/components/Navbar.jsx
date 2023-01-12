@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='navigation position-sticky'>
+    <div className='navigation position-sticky navi'>
         <Link >
             
         <img  className='logoimg' src="https://i.postimg.cc/4NjX5F7j/header-logo.png" alt="logo" />

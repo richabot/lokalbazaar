@@ -89,3 +89,8 @@ transition: 0.3s;
 }
 
 
+.navi{
+    width: 100% !important;
+    /* background-color: blue; */
+    margin: 0px 0px 0px 1px;
+}
